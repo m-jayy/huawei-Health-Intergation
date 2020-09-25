@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/requestAuthorization"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="requestAuthorization"/>
+
+            <Button
+                android:id="@+id/getPermissionStatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="getPermissionStatus"/>
+
+            <Button
+                android:id="@+id/getGender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="getGender"/>
+
+            <Button
+                android:id="@+id/getBirthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="getBirthday"/>
+
+            <Button
+                android:id="@+id/getHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="getHeight"/>
+
+            <Button
+                android:id="@+id/getWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="getWeight"/>
+
+            <Button
+                android:id="@+id/execQuery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="execQuery"/>
+
+            <Button
+                android:id="@+id/getCount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="getCount"/>
+
+            <Button
+                android:id="@+id/saveSample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="saveSample"/>
+
+            <Button
+                android:id="@+id/saveSamples"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="saveSamples"/>
+
+            <Button
+                android:id="@+id/deleteSample"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="deleteSample"/>
+
+            <Button
+                android:id="@+id/deleteSamples"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="deleteSamples"/>
+
+            <Button
+                android:id="@+id/startReadingHeartRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="startReadingHeartRate"/>
+
+            <Button
+                android:id="@+id/stopReadingHeartRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="stopReadingHeartRate"/>
+
+            <Button
+                android:id="@+id/startReadingRri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="startReadingRri"/>
+
+            <Button
+                android:id="@+id/stopReadingRri"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="stopReadingRri"/>
+
+            <Button
+                android:id="@+id/startRealTimeSportData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="startRealTimeSportData"/>
+
+            <Button
+                android:id="@+id/stopRealTimeSportData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="stopRealTimeSportData"/>
+
+            <TextView
+                android:id="@+id/dataText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="this is result"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
